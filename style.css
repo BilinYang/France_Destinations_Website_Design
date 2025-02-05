@@ -1,0 +1,75 @@
+body{
+    font-family: "Roboto"; 
+}
+
+.header, 
+.footer{
+    background-color: #1F2937;
+    padding: 30px 60px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 60px; 
+}
+
+.title{
+    font-size: 48px; 
+    color: #F9FAF8; 
+    font-weight: 900; 
+}
+
+.logo_text{
+    font-size: 24px; 
+    color: #F9FAF8; 
+}
+
+button{
+    background-color: #3882F6; 
+    color: white; 
+    border-radius: 8px; 
+    padding: 5px 25px; 
+    align-self: flex-start; 
+}
+
+
+.logo_text{
+    font-size: 18px; 
+    color: #E5E7EB; 
+}
+
+.introduction{
+    display: flex; 
+    flex-direction: column; 
+    padding: 40px; 
+    gap: 10px; 
+}
+
+.links, 
+.site_description, 
+.footer_text{
+    font-size: 18px; 
+    color: #bfc4c9; 
+}
+
+.footer{
+    align-items: center; 
+}
+
+.header_top{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.header_bottom{
+    display: flex; 
+
+}
+
+.header_image{
+    width: 350px; 
+
+}
+
+.links{
+    display: flex; 
+    gap: 20px; 
+}
