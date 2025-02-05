@@ -12,7 +12,7 @@ body{
 }
 
 .title{
-    font-size: 48px; 
+    font-size: 40px; 
     color: #F9FAF8; 
     font-weight: 900; 
 }
@@ -72,4 +72,47 @@ button{
 .links{
     display: flex; 
     gap: 20px; 
+}
+
+
+
+
+.random_info{
+    display: flex; 
+    flex-direction: column;
+    padding: 40px; 
+    align-items: center; 
+    gap: 40px; 
+}
+
+.some_random_information{
+    font-size: 36px; 
+    color: #1F2937; 
+    font-weight: 900; 
+}
+
+.all_pics_and_texts{
+    display: flex; 
+    gap: 40px; 
+}
+
+.pic_and_text{
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    flex-wrap: nowrap; 
+    height: 450px; 
+    max-width: 100vw; 
+}
+
+.france_pic{
+    width: auto; 
+    border-radius: 10px; 
+    max-height: 80%; 
+    max-width: 100%;
+}
+
+.franc_desc{
+    text-align: center; 
+    width: 200px; 
 }
